@@ -1,9 +1,6 @@
 name: FreeBSD
 
-on:
-  pull_request:
-    branches:
-      - dev
+on: push
 
 jobs:
   build:
